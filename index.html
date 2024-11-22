@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/icon.css">
+</head>
+
+<body>
+    <div class="weather-parent">
+        <div class="weather-container">
+            <!-- input search for weather -->
+            <div class="input-searchBox">
+                <input id="input-search" class="input-search" spellcheck="false" placeholder="search for weather" type="text">
+                <div onclick="searchBtn()" id="myBtn" class="input-button">GO</div>
+            </div>
+            <!-- weather detail box -->
+            <div class="weather-box">
+                <!-- weather details in left side -->
+                <div class="weather-details">
+                    <!-- header top -->
+                    <div class="background-header"></div>
+                    <!-- bottom -->
+                    <div class="rows-parent">
+                        <!-- row 1 -->
+                        <div class="date-today">
+                            <h3 id="day-week" class="day-week">Monday</h3>
+                            <h3 id="date-month" class="date-month">10 Mar</h3>
+                        </div>
+                        <!-- row 2 -->
+                        <div class="city-location">
+                            <h3 id="city" class="city">Tehran</h3>
+                        </div>
+                        <!-- row 3 -->
+                        <div class="today-degree">
+                            <div class="degree-details">
+                                <span id="number" class="number">23</span>
+                                <sup class="o">o</sup>
+                                <span class="temperture-unit">C</span>
+                            </div>
+                            <div class="degree-icon">
+                                <img id="degree-iconImg" src="assets/img/sun.svg" alt="">
+                            </div>
+                        </div>
+                        <!-- row 4 -->
+                        <div class="more-details">
+                            <div class="percent">
+                                <span class="percent-number">20%</span>
+                            </div>
+                            <div class="wind">
+                                <img src="assets/img/icon-wind.png" alt="">
+                                <span id="wind-speed" class="wind-speed">18 km/h</span>
+                            </div>
+                            <div class="direction">
+                                <img src="assets/img/icon-compass.png" alt="">
+                                <span id="direction-word" class="direction-word">East</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- weekday weather in right side -->
+                <div class="weekday-weather">
+                    <!-- row 1 -->
+                    <div class="days-week">
+                        <div class="day1">
+                            <h3>Tuesday</h3>
+                        </div>
+                        <div class="day2">
+                            <h3>Wednesday</h3>
+                        </div>
+                        <div class="day3">
+                            <h3>Thursday</h3>
+                        </div>
+                        <div class="day4">
+                            <h3>Friday</h3>
+                        </div>
+                        <div class="day5">
+                            <h3>Saturday</h3>
+                        </div>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="days-weatherIcon">
+                        <div class="icon1">
+                            <img src="assets/img/cloudy.svg" alt="">
+                        </div>
+                        <div class="icon2">
+                            <img src="assets/img/thunder.svg" alt="">
+                        </div>
+                        <div class="icon3">
+                            <img src="assets/img/snowy.svg" alt="">
+                        </div>
+                        <div class="icon4">
+                            <img src="assets/img/rainy.svg" alt="">
+                        </div>
+                        <div class="icon5">
+                            <img src="assets/img/cloudy2.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
