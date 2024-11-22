@@ -17,4 +17,4 @@
 
 - Role - Frontend
 
-- How to reach me : with my [instagram](https://www.instagram.com/mahdi_gholami_web/profilecard/?igsh=OGJ0YWlmZWh0YnN1) and [linkedin](www.linkedin.com/in/mahdi-gholami-developer)
+- How to reach me : with my [instagram](https://www.instagram.com/mahdi_gholami_web) and [linkedin](https://www.linkedin.com/in/mahdi-gholami-developer)
